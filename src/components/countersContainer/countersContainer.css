@@ -1,0 +1,31 @@
+.layout-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.counters-container {
+  display: flex;
+  justify-content: space-around;
+  height: 80vh;
+  border: 1px solid white;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+
+.warning {
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  text-align: center;
+}
+
+.add-button {
+  background-color: #36b279;
+  width: 200px;
+  height: 50px;
+  align-self: center;
+}
